@@ -36,34 +36,27 @@ class WelcomePage extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: GestureDetector(
-                  onTap: () => {
-                    // setState(() {
-                    //   hasBeenPressed = !hasBeenPressed;
-                    // }),
-                  },
-                  child: Container(
-                    decoration: BoxDecoration(
-                      boxShadow: [
-                        // BoxShadow(
-                        //   color: hasBeenPressed
-                        //       ? AppColors.accent.withOpacity(0.3)
-                        //       : AppColors.iconLight,
-                        //   spreadRadius: 8,
-                        //   blurRadius: 24,
-                        // ),
-                      ],
-                    ),
-                    // child: Text(
-                    //   'LVL UP',
-                    //   style: TextStyle(
-                    //     fontWeight: FontWeight.w900,
-                    //     color: hasBeenPressed
-                    //         ? AppColors.accent
-                    //         : AppColors.iconLight,
-                    //   ),
-                    // ),
+                child: Container(
+                  decoration: BoxDecoration(
+                    boxShadow: [
+                      // BoxShadow(
+                      //   color: hasBeenPressed
+                      //       ? AppColors.accent.withOpacity(0.3)
+                      //       : AppColors.iconLight,
+                      //   spreadRadius: 8,
+                      //   blurRadius: 24,
+                      // ),
+                    ],
                   ),
+                  // child: Text(
+                  //   'LVL UP',
+                  //   style: TextStyle(
+                  //     fontWeight: FontWeight.w900,
+                  //     color: hasBeenPressed
+                  //         ? AppColors.accent
+                  //         : AppColors.iconLight,
+                  //   ),
+                  // ),
                 ),
               ),
               Padding(

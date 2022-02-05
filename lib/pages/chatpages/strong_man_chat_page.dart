@@ -59,7 +59,9 @@ class _StrongManChatPageState extends State<StrongManChatPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          title: Text('Strong Man'),
+        ),
         body: Center(
             child: Column(children: [
               StreamBuilder<QuerySnapshot>(
@@ -140,7 +142,9 @@ class _StrongManChatPageState extends State<StrongManChatPage> {
                     ),
                   ],
                 ),
+
               ),
+              SizedBox(height: 32,),
             ],)
         ));
   }

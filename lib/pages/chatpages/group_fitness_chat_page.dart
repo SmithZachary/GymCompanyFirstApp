@@ -59,7 +59,9 @@ class _GroupFitnessChatPageState extends State<GroupFitnessChatPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          title: Text('Group Fitness'),
+        ),
         body: Center(
             child: Column(children: [
               StreamBuilder<QuerySnapshot>(
@@ -141,6 +143,7 @@ class _GroupFitnessChatPageState extends State<GroupFitnessChatPage> {
                   ],
                 ),
               ),
+              SizedBox(height: 32,),
             ],)
         ));
   }

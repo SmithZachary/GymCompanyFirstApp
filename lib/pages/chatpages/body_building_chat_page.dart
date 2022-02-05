@@ -58,7 +58,9 @@ super.initState();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          title: Text('Body Buidling'),
+        ),
         body: Center(
           child: Column(children: [
             StreamBuilder<QuerySnapshot>(
@@ -140,6 +142,7 @@ super.initState();
                 ],
               ),
             ),
+            SizedBox(height: 32,)
           ],)
         ));
   }
