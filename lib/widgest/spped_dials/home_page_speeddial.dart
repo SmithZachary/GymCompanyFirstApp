@@ -6,9 +6,10 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:the_bar_gym/pages/log_pages/exercise_list.dart';
 import 'package:the_bar_gym/pages/qr_scanner_pagetest.dart';
 import 'package:the_bar_gym/screens/home_screen.dart';
+import 'package:the_bar_gym/screens/photoTest/photo_test.dart';
 import 'package:the_bar_gym/screens/selfie_library.dart';
 
-import '../../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 
 class HomeSpeedDialButton extends StatefulWidget {
   const HomeSpeedDialButton({Key? key}) : super(key: key);

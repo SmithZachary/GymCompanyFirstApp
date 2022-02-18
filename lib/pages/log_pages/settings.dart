@@ -11,6 +11,8 @@ import 'package:the_bar_gym/utils/theme.dart';
 import 'package:the_bar_gym/utils/units.dart';
 import 'package:the_bar_gym/widgest/log_widgets/settings_card.dart';
 
+import '../../theme.dart';
+
 class SettingsPage extends StatefulWidget {
   @override
   _SettingsPageState createState() => _SettingsPageState();

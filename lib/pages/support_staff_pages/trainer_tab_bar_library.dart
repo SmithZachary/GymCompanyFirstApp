@@ -9,7 +9,7 @@ import 'package:the_bar_gym/pages/support_staff_pages/trainer_expanded_list.dart
 import 'package:the_bar_gym/screens/machine_video_screens/machine_video_screens.dart';
 import 'package:the_bar_gym/screens/screens.dart';
 import 'package:the_bar_gym/screens/test_1.dart';
-import '../../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 
 class TrainerTabBarLibrary extends StatefulWidget {
   const TrainerTabBarLibrary({

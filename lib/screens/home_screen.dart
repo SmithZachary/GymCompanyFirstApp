@@ -1,5 +1,3 @@
-
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
@@ -8,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:the_bar_gym/models/user_model.dart';
+
 import 'package:the_bar_gym/pages/pages.dart';
 import 'package:the_bar_gym/pages/qr_scanner_pagetest.dart';
 import 'package:the_bar_gym/pages/support_staff_pages/trainer_expanded_list.dart';
@@ -18,7 +17,7 @@ import 'package:the_bar_gym/widgest/avatars.dart';
 import 'package:the_bar_gym/widgest/spped_dials/home_page_speeddial.dart';
 import 'package:the_bar_gym/widgest/widgets.dart';
 
-import '../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 import 'auth_screens/welcome_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -26,10 +25,10 @@ class HomeScreen extends StatelessWidget {
         builder: (context) => HomeScreen(),
       );
   HomeScreen({Key? key}) : super(key: key);
-String? userId;
+  String? userId;
 
   final _auth = FirebaseAuth.instance;
- User? user = FirebaseAuth.instance.currentUser;
+  User? user = FirebaseAuth.instance.currentUser;
   UserModel loggedInUser = UserModel();
   final ValueNotifier<int> pageIndex = ValueNotifier(0);
   final ValueNotifier<String> title = ValueNotifier('Welcome To The Bar');
@@ -52,23 +51,23 @@ String? userId;
     title.value = pageTitles[index];
     pageIndex.value = index;
   }
+
   @override
   void initState() {
-
-
     FirebaseFirestore.instance
         .collection("users")
         .doc(user!.uid)
         .get()
-        .then((value){
+        .then((value) {
       this.loggedInUser = UserModel.formMap(value.data());
       // setState(() {
       //
       // });
     });
     // var userPic = loggedInUser.picURL;
-print(loggedInUser.userName);
+    print(loggedInUser.userName);
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -246,7 +245,7 @@ class __BottomNavigationBarState extends State<_BottomNavigationBar> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8.0),
                 child: GlowingActionButton(
-                  color: AppColors.secondary,
+                  color: AppColors.primary,
                   icon: CupertinoIcons.qrcode_viewfinder,
                   onPressed: () {
                     Navigator.push(
@@ -333,7 +332,7 @@ class _NavigationBarItem extends StatelessWidget {
             Icon(
               icon,
               size: 28,
-              color: isSelected ? AppColors.secondary : null,
+              color: isSelected ? AppColors.primary : null,
             ),
             // const SizedBox(
             //   height: 8,

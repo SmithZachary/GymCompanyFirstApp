@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:the_bar_gym/screens/home_screen.dart';
 import 'package:the_bar_gym/widgest/glowing_action_button.dart';
-
-import '../../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 
 class ForgotPassword extends StatelessWidget {
   const ForgotPassword({Key? key}) : super(key: key);

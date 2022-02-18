@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 
 class Scanner extends StatefulWidget {
   @override

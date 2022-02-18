@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 
 class GlowingActionButton extends StatelessWidget {
   const GlowingActionButton({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 
 class IconBackground extends StatelessWidget {
   const IconBackground({
@@ -20,7 +20,7 @@ class IconBackground extends StatelessWidget {
       child: InkWell(
         //border radius matches material
         borderRadius: BorderRadius.circular(6),
-        splashColor: AppColors.secondary,
+        splashColor: AppColors.primary,
         onTap: onTap,
         child: Padding(
           padding: const EdgeInsets.all(6),
@@ -48,7 +48,7 @@ class IconBorder extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       borderRadius: BorderRadius.circular(6),
-      splashColor: AppColors.secondary,
+      splashColor: AppColors.primary,
       onTap: onTap,
       child: Container(
         decoration: BoxDecoration(

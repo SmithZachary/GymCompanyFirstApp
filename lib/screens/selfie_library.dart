@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:the_bar_gym/imageUpload/image_upload.dart';
 import 'package:the_bar_gym/imageUpload/show_upload.dart';
 import 'package:the_bar_gym/models/user_model.dart';
+import 'package:the_bar_gym/theme.dart';
 
 import 'auth_screens/login_screen.dart';
 

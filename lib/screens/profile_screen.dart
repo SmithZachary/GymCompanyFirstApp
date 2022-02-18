@@ -6,12 +6,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/src/provider.dart';
 import 'package:the_bar_gym/models/user_model.dart';
+
 import 'package:the_bar_gym/widgest/avatars.dart';
 
 import 'package:the_bar_gym/widgest/widgets.dart';
 
 import '../firebase.dart';
-import '../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 import 'auth_screens/login_screen.dart';
 
 class ProfileScreen extends StatefulWidget {

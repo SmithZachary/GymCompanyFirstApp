@@ -6,7 +6,7 @@ import 'package:the_bar_gym/widgest/avatars.dart';
 import 'package:the_bar_gym/widgest/spped_dials/home_page_speeddial.dart';
 import 'package:the_bar_gym/widgest/widgets.dart';
 
-import '../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({Key? key}) : super(key: key);

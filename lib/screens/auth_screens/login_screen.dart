@@ -5,6 +5,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 
 import 'package:the_bar_gym/screens/auth_screens/register_screen.dart';
 
+import 'package:the_bar_gym/theme.dart';
 import '../../theme.dart';
 import '../home_screen.dart';
 

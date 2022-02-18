@@ -4,9 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:dice_bear/dice_bear.dart';
-
 import 'package:the_bar_gym/models/user_model.dart';
-import '../../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 import '../home_screen.dart';
 
 

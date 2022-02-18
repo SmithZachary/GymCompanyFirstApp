@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-import '../../../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 
 class WorkoutVideoPlayer extends StatefulWidget {
   const WorkoutVideoPlayer({Key? key, required this.videoURL})

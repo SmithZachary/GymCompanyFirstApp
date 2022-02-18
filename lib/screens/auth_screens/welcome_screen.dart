@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:the_bar_gym/screens/auth_screens/register_screen.dart';
 
+
+
 import '../../theme.dart';
 import 'login_screen.dart';
 

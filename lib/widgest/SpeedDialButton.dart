@@ -5,7 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:the_bar_gym/pages/log_pages/exercise_list.dart';
 import 'package:the_bar_gym/pages/qr_scanner_pagetest.dart';
 
-import '../theme.dart';
+import 'package:the_bar_gym/theme.dart';
 
 class SpeedDialButton extends StatefulWidget {
   const SpeedDialButton({Key? key}) : super(key: key);
